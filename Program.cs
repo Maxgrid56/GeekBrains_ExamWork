@@ -5,7 +5,7 @@ for (int i = 0; i < finalArray.Length; i++)
  {
     for (int j = 0; j < array.Length; j++)
     {
-        if (array[j].ToString().Length <4)
+        if (array[j].Length <4)
         {
              finalArray[i] = array[j];
              int index = Array.IndexOf(array, array[j]);
