@@ -1,11 +1,11 @@
-﻿int[] array = new int[4] { 6542, 897, 54, 3452 };
-int[] finalArray = new int[2];
+﻿string[] array = { "Здравия желаю", "54", "LOL", "342", "5896" };
+string[] finalArray = new string[3];
 
 for (int i = 0; i < finalArray.Length; i++)
  {
     for (int j = 0; j < array.Length; j++)
     {
-        if (array[j]<1000)
+        if (array[j].ToString().Length <4)
         {
              finalArray[i] = array[j];
              int index = Array.IndexOf(array, array[j]);
